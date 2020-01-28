@@ -3,25 +3,39 @@
 ## 설치
 우선 내 컴퓨터에 설치되어있는 파이썬과 텐서플로에 관한 버전부터 나열해보겠다.
 
-Python 3.6.8 :: Anaconda
-tensorflow :: 1.5.0
++ Python 3.6.8 :: Anaconda
++ tensorflow :: 1.5.0
 
-내가 처음 텐서플로를 설치했을 때는 파이썬이 3.8까지 나온 상태였는데 슬프게도 파이썬은 3.4~3.7 버전만 지원하고 있었고 윈도우는 7이상이여야 한다고 하였다. 이것저것 따져본 후에 내 컴퓨터에서 머신러닝 툴을 다운받을 수 있다는 사실을 알고 안도하면서 설치를 시작했다. (자세한 사항은 https://www.tensorflow.org/install/pip 이곳에서 확인하자.)
+내가 처음 텐서플로를 설치했을 때는 파이썬이 3.8까지 나온 상태였는데 슬프게도 파이썬은 3.4~3.7 버전만 지원하고 있었고 윈도우는 7이상이여야 한다고 하였다. 이것저것 따져본 후에 내 컴퓨터에서 머신러닝 툴을 다운받을 수 있다는 사실을 알고 안도하면서 설치를 시작했다.\
+**(자세한 사항은 https://www.tensorflow.org/install/pip 이곳에서 확인하자.)**
 
 파이썬이 깔끔하게 지워지지 않아서 아나콘다를 사용하여 파이썬 버전을 3.8에서 3.6으로 바꾸게 되었다.\
-텐서플로를 포함한 다양한 라이브러리를 설치할 때에는 보통
+아나콘다를 통해서 파이썬을 설치하는 방법은 구글에 검색하면 정말 자세하게 다뤄주고 있으니\
+나는 내가 텐서플로 설치할 때 했던 깨알같은 행동 하나하나들과 에러에 관해서 중점으로 서술하겠다.
 
-<code> pip3 install '라이브러리 이름'</code>
+텐서플로를 설치할 때
+1. cmd창을 우클릭해서 나오는 '관리자권한으로 실행'을 사용해서
+2. <code> pip install tensorflow</code> 을 입력하여 설치하였다.
 
-위의 명령어를 이용하여 설치를 하게되는데 파이썬 버전이 꼬인건지 원래 그런 것인지는 모르겠으나 나는 위의 명령어를 사용하면 에러만 생겨서
+원래는 
 
-<code> pip install '라이브러리 이름'</code>
+<code> pip install tensorflow</code> 가 아닌
 
-이 명령어를 사용하였다.
+<code> pip3 install tensorflow</code> 로 설치하라고 많은 동영상과 홈페이지에서 소개하지만
 
+파이썬 관련 PATH가 설정이 잘못 되었는지 나는 위의 명령어를 사용하면 에러가 생긴다.\
+또한 아래의 명령어로도 설치가 잘 되어서 그대로 하였다.
+
+## 에러
 텐서플로를 설치하고\
 'import tensorflow as tf'를 입력하였을 때\
 "ImportError: DLL load failed: 지정된 모듈을 찾을 수 없습니다." 라는 에러가 생겼는데 참.. 고치기 어려웠다..
 
-https://mclearninglab.tistory.com/entry/Pytorch-%EC%84%A4%EC%B9%98-%EC%8B%9C-ImportError-DLL-load-failed-%ED%95%B4%EA%B2%B0%EB%B2%95\
-이 홈페이지에 방문하여 해결을 하였는데 이후는 나중에 이어서 쓰겠다~!
+https://mclearninglab.tistory.com/entry/Pytorch-%EC%84%A4%EC%B9%98-%EC%8B%9C-ImportError-DLL-load-failed-%ED%95%B4%EA%B2%B0%EB%B2%95 \
+이 홈페이지에 방문하여 해결을 하였는데 
+
+1. 페이지의 아래의 Intel-openmp 과 visual studio 2017 재배포파일을 다운로드 받고 (다른 파일은 필요 없었던 것 같다.)
+2. Intel-openmp를 블로그에서 말하는 파이썬의 dll파일에 넣었다.
+(C:\Users\username\AppData\Local\Programs\Python\Python36\DLLs 라고 쓰인 것이 dll파일의 경로)\
+(도중 파일이 안 보여서 '숨긴 항목'이 체크를 해제하여 확인하였던 것 같다.)
+3. visual studio 2017 재배포파일은 실행하기만하면 알아서 설치가 진행된다.
