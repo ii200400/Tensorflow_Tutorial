@@ -50,18 +50,32 @@
 + 균등분포(uniform distribution) : 일정구간 내의 값들이 나타날 가능성이 동일한 분포이다.
 + 가중치(weight) : W를 의미한다. 결과값이 입력값에 얼마나 의존하는지를 의미한다.
 + 편향(bias) : b를 의미한다. 결과값이 얼마나 쉽게 활성화(0이상)되도록 하는지를 의미한다.
-  + http://blog.daum.net/_blog/BlogTypeView.do?blogid=0K6Pu&articleno=6271145&_bloghome_menu=recenttext
-  + https://sacko.tistory.com/10 3.가중치와 편향에서 자세하게 설명하였다.
-+ 손실함수(loss function) : 잠시 저장했다가 다시 시작하겠다.
-+ 비용(cost) :
-+ 학습 : 
+  + 아래의 링크를 참고하자.\
+  http://blog.daum.net/_blog/BlogTypeView.do?blogid=0K6Pu&articleno=6271145&_bloghome_menu=recenttext \
+  https://sacko.tistory.com/10 (3.가중치와 편향)
+
++ 손실함수(loss function) : 데이터의 손실값을 계산하기 위한 수식 또는 함수이며 일반적으로 (y-y`)\*\*2이다.
++ 손실값 : 실재값과 예측값(수식과 사용자가 준 x 데이터를 토대로 나온 결과값)의 차이를 나타내는 값이다.\
+값이 작을수록 학습이 잘 되어 예측을 잘하고 있다는 의미로 받아들여진다.\
++ 비용(cost) : 전체 데이터에 대한 손실의 평균을 의미한다.
++ 학습(train) : 다양한 데이터를 넣어 손실값을 줄여나가는 과정을 기계가 '학습'한다라고 말한다.
++ 최적화(Optimization) : 변수들(W와 b)을 조정하여 손실값을 최소화하는 변수(W와 b)를 찾는 것이다. 
++ 경사하강법(gradient descent) : 최적화 방법 중 하나로 비용함수의 기울기가 0이 되는 방향으로 변수들을 조정한다.\
+정말 간단한 최적화 방식이므로 일차함수와 같은 간단한 수식이 아니라면 해당 방식은 잘 사용하지 않는다. \
+아래의 링크의 경사하강법 문제점에 관한 그림을 보면 이해할 수 있다(바다에 가려는데 산 골짜기에 빠지는 것과 같다).
+  + 학습률(learning rate) : 최적화를 통한 변수의 변화율의 정도를 결정한다.
+  + 하이퍼파라미터(hyperparameter) : 학습에 영향을 미치는 변수를 의미한다. 위의 학습률도 이것이다.\
+  하이퍼파라미터의 설정에 따라서 학습 속도나 신경망의 성능이 크게 달라질 수 있다.\
+  위의 이유로 이것을 조정하는 것을 '하이퍼파라미터를 튜닝(tuning)한다'라고 한다.
+  + 아래의 링크에서 사진과 함께보자. 모르는 단어도 있으므로 그림을 위주보자.\
+  https://jaehyeongan.github.io/2019/04/23/%EA%B2%BD%EC%82%AC%ED%95%98%EA%B0%95%EB%B2%95-Gradient-Descent/
 
 ---
 ### 예시 코드
 
-1.15.0 버전 : 
+1.15.0 버전 : https://colab.research.google.com/drive/1Q1K7F6XaFInyV9wKsIM5bYzergooA7Wh
 
-2.1.0-rc1 버전 : 
+2.1.0-rc1 버전 : https://colab.research.google.com/drive/1svvVL-iANx3-r3uxJ2u05yNftTASq4Lf#scrollTo=tkEp9jeknl2j
 
 ---
 
