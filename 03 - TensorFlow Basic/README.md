@@ -77,6 +77,7 @@
 1.15.0 버전 : https://colab.research.google.com/drive/1Q1K7F6XaFInyV9wKsIM5bYzergooA7Wh
 
 2.1.0-rc1 버전 : https://colab.research.google.com/drive/1svvVL-iANx3-r3uxJ2u05yNftTASq4Lf#scrollTo=tkEp9jeknl2j
+
 *바뀐 문법이 많아서 잘 변환하였는지 확신이 서지 않는다. 참고만 하도록 하자.*
 
 ---
