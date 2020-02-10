@@ -57,13 +57,13 @@
 
 위와 비슷한 실습을 해보겠다. 
 
-신경망의 깊이와 사용하는 최적화 함수
+신경망의 깊이와 사용하는 최적화 함수 등을 제외하고는 대부분 비슷하다.
 
 ---
 ### 예시 코드
 
-1.15.0 버전 : 
+1.15.0 버전 : https://colab.research.google.com/drive/1nQO-KF_NHPW0NeBfmudxeHcuf5BqlKDZ
 
-2.1.0-rc1 버전 : 
+2.1.0-rc1 버전 : https://colab.research.google.com/drive/1Y4tsNL4faUZ2eWmeLvgvzZAOfzpbJFDv
 
 ---
