@@ -52,9 +52,10 @@
 + 균등분포(uniform distribution) : 일정구간 내의 값들이 나타날 가능성이 동일한 분포이다.
 + 가중치(weight) : W를 의미한다. 결과값이 입력값에 얼마나 의존하는지를 의미한다.
 + 편향(bias) : b를 의미한다. 결과값이 얼마나 쉽게 활성화(0이상)되도록 하는지를 의미한다.
-  + 아래의 링크를 참고하자.\
+  + 아래의 링크들을 참고하자.\
   http://blog.daum.net/_blog/BlogTypeView.do?blogid=0K6Pu&articleno=6271145&_bloghome_menu=recenttext \
-  https://sacko.tistory.com/10 (3.가중치와 편향)
+  https://sacko.tistory.com/10 \
+  (인공신경망 알고리즘을 퍼셉트론이라고 하는데 그에 대한 이야기를 쉽게 설명하였다.)
 
 + 손실함수(loss function) : 데이터의 손실값을 계산하기 위한 수식 또는 함수이며 일반적으로 (y-y`)\*\*2이다.
 + 손실값 : 실재값과 예측값(수식과 사용자가 준 x 데이터를 토대로 나온 결과값)의 차이를 나타내는 값이다.\
