@@ -17,6 +17,15 @@ MNIST를 포함한 이후의 모델들은 텐서플로우에서 제공하는 함
 + 배치 크기(batch size) : 배치 한번에 사용될 데이터 셋의 행의 수
 + 미니 배치(mini-batch) : 전체 배치 중에서 무작위로 선택한 소규모 배치 부분집합이다.
   + 배치에 쓰이는 데이터 양이 컴퓨터 메모리를 넘기면 안되므로 사용하는 기법이다.
+  
++ Flatten
++ Dense
+
++ 원-핫 인코딩(one-hot encoding) : 
++ 정수 인코딩(integer encoding) : 
+
++ epochs
++ verbose
 
 ---
 ### 예시 코드
