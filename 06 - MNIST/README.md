@@ -46,4 +46,16 @@ MNIST를 포함한 이후의 모델들은 텐서플로우에서 제공하는 함
 
 ---
 
-## dropdown 
+## 과대적합과 Dropout
+
++ 드롭아웃(dropout) : 
++ 배치 정규화(batch normalization) : 
+
+---
+### 예시 코드
+
+1.15.0 버전 : https://colab.research.google.com/drive/1gtBYEoIbg03OdENyUfiQ-Omji3kjmyuL
+
+2.1.0-rc1 버전 : https://colab.research.google.com/drive/1s2FkyGPWksp7gmjdSbTJdeQCySPht5C5
+
+---
