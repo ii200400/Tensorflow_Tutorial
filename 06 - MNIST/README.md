@@ -37,7 +37,7 @@ MNIST를 포함한 이후의 모델들은 텐서플로우에서 제공하는 함
   + 과대적합과 과소적합에 관한 동영상(동영상의 variance는 weight를 의미한다고 생각하고 보자.)\
   https://www.youtube.com/watch?v=SjQyLhQIXSM&list=PLkDaE6sCZn6Hn0vK8co82zjQtt3T2Nkqc&index=2
 
-> 모델의 레이블에 대한 용어
+> 라벨에 대한 용어
 
 + 희소 벡터(sparse vector) : 대부분의 값이 0이거나 비어있는 벡터(숫자들의 배열, 흔히 1차원 배열로 생각하는 것)
 + 원-핫 인코딩(one-hot encoding) : 요소중 하나가 1이고 나머지가 모두 0인 특징을 가지는 희소벡터
