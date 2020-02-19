@@ -30,6 +30,8 @@ MNIST를 포함한 이후의 모델들은 텐서플로우에서 제공하는 함
   + 밀집 레이어(dense layer)를 완전 연결 레이어(fully connected layer)라고도 한다.
 + 과대적합(overfitting) : 모델이 훈련 데이터는 잘 예상을 하지만 그 외의 데이터는 예상이 잘 되지 않는 것을 의미한다.
 + 과소적합(underfitting) : 모델이 아직 훈련이 덜 되어 훈련 데이터와 테스트 데이터 모두 예상을 잘 못하는 것을 의미한다.
+  + 과대적합과 과소적합에 관한 동영상(동영상의 variance는 weight를 의미한다고 생각하고 보자.)\
+  https://www.youtube.com/watch?v=SjQyLhQIXSM&list=PLkDaE6sCZn6Hn0vK8co82zjQtt3T2Nkqc&index=2
 
 + 희소 벡터(sparse vector) : 대부분의 값이 0이거나 비어있는 벡터(숫자들의 배열, 흔히 1차원 배열로 생각하는 것)
 + 원-핫 인코딩(one-hot encoding) : 요소중 하나가 1이고 나머지가 모두 0인 특징을 가지는 희소벡터
@@ -48,8 +50,15 @@ MNIST를 포함한 이후의 모델들은 텐서플로우에서 제공하는 함
 
 ## 과대적합과 Dropout
 
-+ 드롭아웃(dropout) : 
-+ 배치 정규화(batch normalization) : 
++ 정규화(regularization) : 모델을 간단하게 만들어 과적합을 방지하는 기법
+  + 종류로는 L1 정규화(L1 regularization), L2 정규화(L2 regularization), 드롭아웃(dropout), 조기 중단(early stopping) 등이 있다.
+  + 실재로 epoch를 30으로 지정하고 위의 모델과 아래 모델를 비교하면 위의 코드의 모델은 과적합이 일어나 성능이 좋지 못한 것을 발견할 수 있다.(MNIST에서는 차이가 크게 와닿지 않지만 학습데이터가 적을수록, epoch를 더 크게 할 수록 심히지는 것을 볼 수 있다.)
++ 드롭아웃(dropout) : 정규화 방법중 하나로 특정 레이어의 뉴런을 무작위로 선택하고 일시적으로 신경망에서 삭제한다.
++ 배치 정규화(batch normalization) : regularization으로 분류되지는 않지만 과적합을 막아주고 출력값을 안정시키고 학습 속도도 향상시켜주는 기법
+  + regularization과 normalization 모두 정식 구글 번역에서 정규화라고 쓰고있다;;
+
++ matplotlib : 그래프를 편하게 그릴 수 있도록 한 파이썬 라이브러리이다. \
+간단한 그림이나 그래프들을 즉석으로 확인하고 싶을 때 자주 사용한다.
 
 ---
 ### 예시 코드
