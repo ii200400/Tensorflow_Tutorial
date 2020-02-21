@@ -11,8 +11,9 @@ CNN(convolutional neural network)는 합성곱 신경망이라고 부른다.\
 확실하게 같은 의미인데 명칭이 2가지인 경우가 몇 개 있다.\
 구글 용어집을 기준으로 쓰되 이전 용어도 같이 작성하고 넘어가겠다.
 
-+ 컨볼루셔널 레이어(convolutional layer)
-  + 스트라이드(stride)
++ 컨볼루셔널 레이어(convolutional layer) : 신경망의 한 레이어로 컨볼루셔널 필터를 통하여 연산을 하는 레이어를 의미한다.\
+해당 레이어를 사용하면 연산이 필요한 크기가 줄어들어 메모리도 아끼면서 더 빠르게 학습시킬 수 있다.
+  + 스트라이드(stride) : 
   + 컨볼루셔널 필터(convolutional filter)
     + 커널(kernel)
   + 슬라이스 (slice)
