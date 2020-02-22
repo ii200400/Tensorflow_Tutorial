@@ -25,7 +25,8 @@ CNN 모델에서 자주 쓰이는 레이어 중 하나로 계산량이 줄어들
   윈도우(window)라고도 한다.
     + 스트라이드(stride) : 슬라이스를 얼마나 움직일지 결정한다.
     + 패딩(padding) : 입력변수 주변에 0이나 특정한 값으로 두르는 것을 의미한다.
-      + https://hyunyoung2.github.io/2018/07/23/Tensorflow%27s_Neural_Network_Convolution/ 
+      + 참고 링크(쿼라에서 padding='Same' 에 대한 글인데 사진과 함께 설명이 잘 되어있다.)\
+      https://www.quora.com/What-does-the-same-padding-parameter-in-convolution-mean-in-TensorFlow
   + 컨볼루셔널 필터(convolutional filter) : 슬라이스의 크기와 같은 크기를 가지며 크기에 맞는 가중치와 1개의 편향을 가지고 있다.\
     + 만약 3\*3 슬라이스가 있다면 그것의 필터는 [3,3] 크기이고 3\*3개의 가중치와 1개의 편향을 가진다.
     + 컨볼루셔널 커널(kernel)이라고도 부른다.
