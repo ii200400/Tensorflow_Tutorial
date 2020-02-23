@@ -60,4 +60,11 @@ tf.summary() 등등으로 레이어의 구조를 글과 그림으로 볼 수 있
 
 1.15.0 버전 : https://colab.research.google.com/drive/1xNMBVnPRB2Xnd2HwKYmXFGpI-Y2W5r4l
 
+아니;; 고수준 API로만 바꾸고 레이어는 완전히 같은 줄 알았는데\
+padding도 안쓰고 use_bias=False로도 안하고 rate = 1 - keep_prop여서 0.3을 넣어야하는데 0.7을 넣는 등, \ 
+틀린 점이 너무 많다;;;
+
+오래전에 쓰여진 글이니까 2년이 지나면서 함수가 바뀐 것인지 글쓴이가 잘못한 것인지 알수가 없지만\
+그래도 코드를 만들어 놓긴 하였으니 코드를 올리겠다. 참고만 하자.
+
 ---
