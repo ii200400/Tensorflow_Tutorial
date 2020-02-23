@@ -23,8 +23,8 @@ CNN 모델에서 자주 쓰이는 레이어 중 하나로 계산량이 줄어들
   + 특징 맵/피처 맵(feature map) : 컨볼루셔널 레이어를 통해서 만들어진 출력값
   + 슬라이스 (slice) : 이미지나 특징 맵의 일부분으로 컨볼루셔널 필터와 함께 컨볼루셔널 연산을 수행할 때 사용된다.\
   윈도우(window)라고도 한다.
-    + 스트라이드(stride) : 슬라이스를 얼마나 움직일지 결정한다.
-    + 패딩(padding) : 입력변수 주변에 0이나 특정한 값으로 두르는 것을 의미한다.
+    + 스트라이드(stride) : 다음 슬라이스를 어떻게 만들지 결정한다.
+    + 패딩(padding) : 입력변수 주변에 0이나 특정한 값을 임의로 넣어 출력 변수의 크기와 값을 조정한다.
       + 참고 링크(쿼라에서 padding='Same' 에 대한 글인데 사진과 함께 설명이 잘 되어있다.)\
       https://www.quora.com/What-does-the-same-padding-parameter-in-convolution-mean-in-TensorFlow
   + 컨볼루셔널 필터(convolutional filter) : 슬라이스의 크기와 같은 크기를 가지며 크기에 맞는 가중치와 1개의 편향을 가지고 있다.\
@@ -40,5 +40,24 @@ CNN 모델에서 자주 쓰이는 레이어 중 하나로 계산량이 줄어들
 1.15.0 버전 : https://colab.research.google.com/drive/1Py8danNdcFQjL09Z3L7RXu2IA1F_n2ma
 
 2.1.0-rc1 버전 : https://colab.research.google.com/drive/1IpJoglfVaezXX580mheLFbSn_kf5FdSD
+
+---
+
+## 고수준 API
+
+신경망 구성을 손쉽게 해 주는 유틸리티 모음인 tensorflow.layers 를 활용하여 모델을 만들어본다.
+
+위의 코드와 크게 다른점은 없고 말 그대로 고수준API를 사용하는 방법을 보여준다.\
+2.1버전은 작성하지 않았다. 이미 활용하고 있었기 때문이다.\
+tf.summary() 등등으로 레이어의 구조를 글과 그림으로 볼 수 있고 코딩 속도와 학습 속도도 더 빠르다.\
+굳이 쓰지 않을 이유가 없고 더 자세히 알고 싶으면 이론을 공부하는 편이 더 좋다고 생각한다;;
+
+하지만 글쓴이는 기본을 더 중요하게 생각하고 고수준 API를 사용하지 않고 코딩하는 것이 더 기본을 닦는 것에 도움이 된다고 생각하여 \
+책에서는 고수준API 쓰는 것을 지양하였다.
+
+---
+### 예시 코드
+
+1.15.0 버전 : https://colab.research.google.com/drive/1xNMBVnPRB2Xnd2HwKYmXFGpI-Y2W5r4l
 
 ---
