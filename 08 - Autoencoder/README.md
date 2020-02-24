@@ -6,7 +6,7 @@
 
 ## 오토 인코더 개념
 
-+ 지도 학습(supervised learning) : 이전에 만든 것들과 같이 모델에게 입력값(x)과 그에 대응하는 실재값(y)을 알려주고 학습법
++ 지도 학습(supervised learning) : 모델에게 입력값(x)과 그에 대응하는 실재값(y)을 알려주고 학습법
 + 비지도 학습(unsupervised learning) : 모델에게 입력값만 주고 실재값은 알려주지 않는 학습법
 
 + 오토인코더(autoencoder) : 입력값과 출력값이 같도록하는 신경망
