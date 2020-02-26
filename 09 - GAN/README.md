@@ -14,5 +14,14 @@ GAN을 제안한 이안 굿펠로우(Ian Goodfellow)가 논문에서 제시한 �
 
 ## GAN 기본 용어
 
-+ 구분자(discriminator) : 
-+ 생성자(generator) : 
++ 생성자(generator) : 생성자는 실제 데이터로 학습하고 이를 바탕으로 거짓 데이터를 생성한다.
++ 감식자/구분자(discriminator) : 데이터가 진짜인지 생성자가 내놓은 가짜인지 판별하도록 학습한다.
+
+---
+### 예시 코드
+
+1.15.0 버전 : https://colab.research.google.com/drive/17Q33wz8DWivousmXEtvtDHVwyjgT_ksT
+
+2.1.0-rc1 버전 : https://colab.research.google.com/drive/1oCh4Er_UvY0tZFxGnrJ1QZnAnuWWnh8d
+
+---
