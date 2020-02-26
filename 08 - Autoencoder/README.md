@@ -21,3 +21,6 @@
 2.1.0-rc1 버전 : https://colab.research.google.com/drive/1Pw_YL3hZ0U5PDFgtoUGSW37g96Vf4w4p
 
 ---
+
+오토인코더에 관한 링크\
+https://keraskorea.github.io/posts/2018-10-23-keras_autoencoder/
