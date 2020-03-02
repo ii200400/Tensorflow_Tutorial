@@ -35,4 +35,7 @@ GAN을 제안한 이안 굿펠로우(Ian Goodfellow)가 논문에서 제시한 �
 
 2.1.0-rc1 버전 : https://colab.research.google.com/drive/1oCh4Er_UvY0tZFxGnrJ1QZnAnuWWnh8d
 
+2.1버전에서 사용자 정의 손실 함수를 사용하게 되는데 실수를 해서 에러 찾는데만 시간이 좀 오래걸렸다;
+텐서플로우 공식 사이트의 튜토리얼을 참고하면서 책에서 구현된 모델을 적용하였다. 
+
 ---
