@@ -52,11 +52,8 @@ GAN을 제안한 이안 굿펠로우(Ian Goodfellow)가 논문에서 제시한 �
 
 2.1.0-rc1 버전 : https://colab.research.google.com/drive/1rqiObLK4WaKW_-99MCwZ0WCov3Tr4LQy
 
-2.1버전으로 원하는 숫자를 만드는 GAN 모델을 만들지 못했다.
-아래의 두 코드를 참고해서 만들었는데 왜 안되는지 잘 모르겠다..
-
-1. https://github.com/golbin/TensorFlow-Tutorials/blob/909a8b77d5bb1db4732febee9ed68ab218478b97/09%20-%20GAN/02%20-%20GAN2.py#L61 \
-2. https://www.tensorflow.org/tutorials/generative/dcgan 
+2.1버전은 학습률을 잘 설정해주지 않으면 잘 학습이 되지 않는 점을 확인하였다.
+덕분에 내 4일이 승화하였다.
 
 ---
 
