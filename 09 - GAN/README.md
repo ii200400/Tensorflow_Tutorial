@@ -62,3 +62,7 @@ GAN을 제안한 이안 굿펠로우(Ian Goodfellow)가 논문에서 제시한 �
 
 솔직히 사용자 지정 손실 함수와 최적화 설정을 사용하여서 코딩을 이해하는데 조금 어려웠다.\
 나중에 한 번 더 보고 이해를 해야할 것 같다.
+
+GAN 논문 한글 리뷰 링크\
+http://jaejunyoo.blogspot.com/2017/01/generative-adversarial-nets-1.html
+
