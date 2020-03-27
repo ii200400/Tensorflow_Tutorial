@@ -42,8 +42,8 @@ RNN 모델 특성상 순서가 있는 데이터가 들어가야 하기 때문에
 ---
 ### 예시 코드
 
-1.15.0 버전 : 
+1.15.0 버전 : https://colab.research.google.com/drive/1pSEj8ix4isgLTcnhdrt6tbIiVyGv_1tE
 
-2.1.0-rc1 버전 : 
+2.1.0-rc1 버전 : https://colab.research.google.com/drive/1VuDeJpAw6xDzctQI9oIcg_wPXgY5j92W
 
 ---
