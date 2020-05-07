@@ -27,8 +27,9 @@ AI를 만들기 위한 수단으로 머신러닝이 있고 머신러닝을 만�
 설명이 꽤나 복잡해진 이유는 똑똑한 사람들이 AI를 만드려고 이것저것 연구하다가 나온 결과라고 생각한다. 나는 그냥 기술을 가져다가 쓰는 입장이니 겸허하게 받아들기이로 했다..
 
 참고 문서 및 영상
-https://github.com/golbin/TensorFlow-Tutorials/tree/master/01%20-%20Why%20TensorFlow - 기본 개념
-https://www.youtube.com/watch?v=arbbhHyRP90 - AI/머신러닝/딥러닝 구분
+
+https://github.com/golbin/TensorFlow-Tutorials/tree/master/01%20-%20Why%20TensorFlow - 기본 개념 \
+https://www.youtube.com/watch?v=arbbhHyRP90 - AI/머신러닝/딥러닝 구분 \
 https://marobiana.tistory.com/155 - 머신러닝 종류들
 
 ## 텐서플로(TensorFlow)
