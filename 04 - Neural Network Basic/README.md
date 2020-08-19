@@ -57,9 +57,9 @@
 ---
 ### 예시 코드
 
-1.15.0 버전 : https://colab.research.google.com/drive/1kBvwq70uanYLCBzgkzvvHCMZC2mA7hwD
+1.15.0 버전 : [01_Classification.ipynb](https://github.com/ii200400/Tensorflow_Tutorial/blob/master/04%20-%20Neural%20Network%20Basic/01_Classification.ipynb)
 
-2.1.0-rc1 버전 : https://colab.research.google.com/drive/1F0mwAi3HziD-g_7mxV_4Z75KMZ9JUlHQ
+2.1.0-rc1 버전 : [01_Classification(2_1ver).ipynb](https://github.com/ii200400/Tensorflow_Tutorial/blob/master/04%20-%20Neural%20Network%20Basic/01_Classification(2_1ver).ipynb)
 
 위의 실습코드는 신경망을 한 층으로만 하였기 때문에 정확도가 높지는 않다.\
 (학습을 진행할 때마다 변수가 달라지는데 우연히 100% 정확도를 보기도 하였다.)\
@@ -78,8 +78,8 @@
 ---
 ### 예시 코드
 
-1.15.0 버전 : https://colab.research.google.com/drive/1nQO-KF_NHPW0NeBfmudxeHcuf5BqlKDZ
+1.15.0 버전 : [02_Deep_NN.ipynb](https://github.com/ii200400/Tensorflow_Tutorial/blob/master/04%20-%20Neural%20Network%20Basic/02_Deep_NN.ipynb)
 
-2.1.0-rc1 버전 : https://colab.research.google.com/drive/1Y4tsNL4faUZ2eWmeLvgvzZAOfzpbJFDv
+2.1.0-rc1 버전 : [02_Deep_NN(2_1ver).ipynb](https://github.com/ii200400/Tensorflow_Tutorial/blob/master/04%20-%20Neural%20Network%20Basic/02_Deep_NN(2_1ver).ipynb)
 
 ---
