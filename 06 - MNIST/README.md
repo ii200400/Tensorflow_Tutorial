@@ -48,9 +48,9 @@ MNIST를 포함한 이후의 모델들은 텐서플로우에서 제공하는 함
 ---
 ### 예시 코드
 
-1.15.0 버전 : https://colab.research.google.com/drive/12X33MLRhL80_2eD1UdV_NQQPqUTuIFXg
+1.15.0 버전 : [01_MNIST.ipynb](https://github.com/ii200400/Tensorflow_Tutorial/blob/master/06%20-%20MNIST/01_MNIST.ipynb)
 
-2.1.0-rc1 버전 : https://colab.research.google.com/drive/1msKfEvtz2Has0EbLs0PvreGmCEzcAB9L
+2.1.0-rc1 버전 : [01_MNIST(2_1ver).ipynb](https://github.com/ii200400/Tensorflow_Tutorial/blob/master/06%20-%20MNIST/01_MNIST(2_1ver).ipynb)
 
 ---
 
@@ -69,9 +69,9 @@ MNIST를 포함한 이후의 모델들은 텐서플로우에서 제공하는 함
 ---
 ### 예시 코드
 
-1.15.0 버전 : https://colab.research.google.com/drive/1gtBYEoIbg03OdENyUfiQ-Omji3kjmyuL
+1.15.0 버전 : [02_Dropout.ipynb](https://github.com/ii200400/Tensorflow_Tutorial/blob/master/06%20-%20MNIST/02_Dropout.ipynb)
 
-2.1.0-rc1 버전 : https://colab.research.google.com/drive/1s2FkyGPWksp7gmjdSbTJdeQCySPht5C5
+2.1.0-rc1 버전 : [02_Dropout(2_1ver).ipynb](https://github.com/ii200400/Tensorflow_Tutorial/blob/master/06%20-%20MNIST/02_Dropout(2_1ver).ipynb)
 
 matplot의 사용법과\
 모델을 저장하는 3가지 방법에 대해서 자세하게 써놓았다.
