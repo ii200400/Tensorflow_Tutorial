@@ -42,9 +42,9 @@ https://developers.google.com/machine-learning/glossary?hl=ko \
 ---
 ### 예시 코드
 
-1.15.0 버전 : https://colab.research.google.com/drive/1h1DP4MrjduyEQrfcliuqy62MZ923PoDG
+1.15.0 버전 : [02_Variable.ipynb](https://github.com/ii200400/Tensorflow_Tutorial/blob/master/03%20-%20TensorFlow%20Basic/02_Variable.ipynb)
 
-2.1.0-rc1 버전 : https://colab.research.google.com/drive/1Dwf8rm5uPNcVZ64gxDiRSwnqFYMcvBWT
+2.1.0-rc1 버전 : [02_Variable(2_1ver).ipynb](https://github.com/ii200400/Tensorflow_Tutorial/blob/master/03%20-%20TensorFlow%20Basic/02_Variable(2_1ver).ipynb)
 
 ---
 
@@ -86,9 +86,9 @@ https://developers.google.com/machine-learning/glossary?hl=ko \
 ---
 ### 예시 코드
 
-1.15.0 버전 : https://colab.research.google.com/drive/1Q1K7F6XaFInyV9wKsIM5bYzergooA7Wh
+1.15.0 버전 : [03_Linear_Regression.ipynb](https://github.com/ii200400/Tensorflow_Tutorial/blob/master/03%20-%20TensorFlow%20Basic/03_Linear_Regression.ipynb)
 
-2.1.0-rc1 버전 : https://colab.research.google.com/drive/1svvVL-iANx3-r3uxJ2u05yNftTASq4Lf#scrollTo=tkEp9jeknl2j
+2.1.0-rc1 버전 : [03_Linear_Regression(2_1ver).ipynb](https://github.com/ii200400/Tensorflow_Tutorial/blob/master/03%20-%20TensorFlow%20Basic/03_Linear_Regression(2_1ver).ipynb)
 
 *바뀐 문법이 많아서 잘 변환하였는지 확신이 서지 않는다. 참고만 하도록 하자.*
 
