@@ -8,9 +8,9 @@
 ---
 ### 예시 코드
 
-1.15.0 버전 : https://colab.research.google.com/drive/1kPGbrcPGc19UqxllkCTteNYXi0ajX7ez
+1.15.0 버전 : [01_Saver.ipynb](https://github.com/ii200400/Tensorflow_Tutorial/blob/master/05%20-%20TensorBoard,%20Saver/01_Saver.ipynb)
 
-2.1.0-rc1 버전 : https://colab.research.google.com/drive/1hknxu14mJ3KRgX1bxPjqNn26H1KfxCWu
+2.1.0-rc1 버전 : [01_Saver(2_1ver).ipynb](https://github.com/ii200400/Tensorflow_Tutorial/blob/master/05%20-%20TensorBoard,%20Saver/01_Saver(2_1ver).ipynb)
 
 ---
 
@@ -21,8 +21,8 @@
 ---
 ### 예시 코드
 
-1.15.0 버전 : https://colab.research.google.com/drive/1M5m7MFELo_rH3SdPbmwOhH99sVMt4VvD
+1.15.0 버전 : [02_TensorBoard.ipynb](https://github.com/ii200400/Tensorflow_Tutorial/blob/master/05%20-%20TensorBoard,%20Saver/02_TensorBoard.ipynb)
 
-2.1.0-rc1 버전 : https://colab.research.google.com/drive/1RMwC-MQelSIaVySohJBbSFW-kgBEwuoI
+2.1.0-rc1 버전 : [02_TensorBoard(2_1ver).ipynb](https://github.com/ii200400/Tensorflow_Tutorial/blob/master/05%20-%20TensorBoard,%20Saver/02_TensorBoard(2_1ver).ipynb)
 
 ---
