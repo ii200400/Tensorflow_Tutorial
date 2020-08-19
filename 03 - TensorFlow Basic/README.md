@@ -30,9 +30,9 @@ https://developers.google.com/machine-learning/glossary?hl=ko \
 ---
 ### 예시 코드
 
-1.15.0 버전 : https://colab.research.google.com/drive/13H2DStRYd34deZXswreup8aozAuDu5K7
+1.15.0 버전 : [01_Basic.ipynb](https://github.com/ii200400/Tensorflow_Tutorial/blob/master/03%20-%20TensorFlow%20Basic/01_Basic.ipynb)
 
-2.1.0-rc1 버전 : https://colab.research.google.com/drive/126YC40UlpahkIdhpG2YYYi2YvYSx-ZCI
+2.1.0-rc1 버전 : [01_Basic(2_1ver).ipynb](https://github.com/ii200400/Tensorflow_Tutorial/blob/master/03%20-%20TensorFlow%20Basic/01_Basic(2_1ver).ipynb)
 
 ---
 
