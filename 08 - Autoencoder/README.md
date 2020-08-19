@@ -16,9 +16,9 @@
 ---
 ### 예시 코드
 
-1.15.0 버전 : https://colab.research.google.com/drive/1oQ3d3Wsv5VOZ_ZV0ZoojIxL234-RhaEm
+1.15.0 버전 : [01_Autoencoder.ipynb](https://github.com/ii200400/Tensorflow_Tutorial/blob/master/08%20-%20Autoencoder/01_Autoencoder.ipynb)
 
-2.1.0-rc1 버전 : https://colab.research.google.com/drive/1Pw_YL3hZ0U5PDFgtoUGSW37g96Vf4w4p
+2.1.0-rc1 버전 : [01_Autoencoder(2_1ver).ipynb](https://github.com/ii200400/Tensorflow_Tutorial/blob/master/08%20-%20Autoencoder/01_Autoencoder(2_1ver).ipynb)
 
 ---
 
