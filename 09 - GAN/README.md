@@ -32,9 +32,9 @@ GAN을 제안한 이안 굿펠로우(Ian Goodfellow)가 논문에서 제시한 �
 ---
 ### 예시 코드
 
-1.15.0 버전 : https://colab.research.google.com/drive/17Q33wz8DWivousmXEtvtDHVwyjgT_ksT
+1.15.0 버전 : [01_GAN.ipynb](https://github.com/ii200400/Tensorflow_Tutorial/blob/master/09%20-%20GAN/01_GAN.ipynb)
 
-2.1.0-rc1 버전 : https://colab.research.google.com/drive/1oCh4Er_UvY0tZFxGnrJ1QZnAnuWWnh8d
+2.1.0-rc1 버전 : [01_GAN(2_1ver).ipynb](https://github.com/ii200400/Tensorflow_Tutorial/blob/master/09%20-%20GAN/01_GAN(2_1ver).ipynb)
 
 2.1버전에서 사용자 정의 손실 함수를 사용하게 되는데 실수를 해서 에러 찾는데만 시간이 좀 오래걸렸다;
 텐서플로우 공식 사이트의 튜토리얼을 참고하면서 책에서 구현된 모델을 적용하였다. 
@@ -48,11 +48,11 @@ GAN을 제안한 이안 굿펠로우(Ian Goodfellow)가 논문에서 제시한 �
 ---
 ### 예시 코드
 
-1.15.0 버전 : https://colab.research.google.com/drive/1bgywGYr2ZJf-KnOzP5w6Ma8kFcczPEeV
+1.15.0 버전 : [02_GAN2.ipynb](https://github.com/ii200400/Tensorflow_Tutorial/blob/master/09%20-%20GAN/02_GAN2.ipynb)
 
-2.1.0-rc1 버전 : https://colab.research.google.com/drive/1rqiObLK4WaKW_-99MCwZ0WCov3Tr4LQy
+2.1.0-rc1 버전 : [02_GAN2(2_1ver).ipynb](https://github.com/ii200400/Tensorflow_Tutorial/blob/master/09%20-%20GAN/02_GAN2(2_1ver).ipynb)
 
-2.1버전은 학습률을 잘 설정해주지 않으면 잘 학습이 되지 않는 점을 확인하였다.
+2.1버전은 학습률을 재대로 설정해주지 않으면 잘 학습이 되지 않는 점을 확인하였다.
 덕분에 내 4일이 승화하였다.
 
 ---
